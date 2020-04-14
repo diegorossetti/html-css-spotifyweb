@@ -134,7 +134,7 @@ aside h3 {
 #btn-fav-playlist {
     height: 32px;
     width: 32px;
-    background-color: #121212;
+    background-image: linear-gradient(to bottom right, #331692, #728884);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -147,7 +147,7 @@ aside hr {
 }
 
 #custom-playlist {
-    height: 120px;
+    height: 473px;
     width: 100%;
     overflow-y: auto;
     overflow-x: hidden;
@@ -349,11 +349,14 @@ header .container {
     font-family: "Font Awesome 5 Free";
     background-color: #1db954;
     color: white;
-    padding: 16px;
     border-radius: 50%;
     position: absolute;
     bottom: 8px;
     right: 8px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
 }
 
 .cat-element p {
